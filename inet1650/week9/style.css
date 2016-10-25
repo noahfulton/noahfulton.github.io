@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+p { background-color: #C2F670;
+width: 200px;
+height: 200px;}
+p.A  {border: double black medium;}
+p.B  {overflow:scroll;}
+p.C  {padding:2em;}
+p.D  {padding:2em; border:4px solid red;}
+p.E  {margin: 2em; border:4px solid red;}
+p.F  {padding: 1em 1em 1em 6em; margin: 1em 6em; border: 4px black dashed;}
+p.G  {padding: 1em 50px; margin: 0px auto; border:2px solid teal;}
