@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Animated Movie</title>
+<style>
+	h1 {
+		width:12em; height: 1.2em;
+		background-color: #BC3739;
+		color: white;
+		font-family:Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+		text-align: center;
+		position: relative;
+		animation-name: transition;
+		animation-duration: 10s;
+		animation-delay: 5s;
+		animation-iteration-count: infinite;
+		left:20em; top:2em;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate;
+	}
+	@keyframes transition{
+		0%   {background-color:#BC3739; left:20em; top:1em; color: white;}
+		25% {background-color: black;top:0px; color: red; transform: rotate(3deg)}
+		50% {background-color:#BC3739; top:1em; color: white;transform: rotate(0deg)}
+		75% {background-color: black;  top:2em; color: red;transform: rotate(-3deg)}
+		100% {background-color:#BC3739; left:20em; top:1em; color:white;ransform: rotate(0deg)}
+	}
+	img {width: 40em;}
+	h2 {text-align: center;position: relative; top:3em;}
+	body {background-color:maroon}
+</style>
+</head>
+
+<body>
+<h1>
+Assassin's Creed
+	</h1>
+	<h2>
+	<img src="LeapOfFaith.jpg"> 
+	</h2>
+	
+</body>
+</html>
